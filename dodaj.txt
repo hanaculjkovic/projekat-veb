@@ -1,0 +1,4 @@
+log in dugme treba da bude iste duzine kao i inputi
+labeli  treba da budu sa strane a ne na centru
+dopuni greske u log in 
+proveri ovo za active navlinks da bude kao na figmi

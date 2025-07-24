@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+body{
+    background-color: #4F5B45;
+    display: flex;
+    align-items: center;justify-content: center;
+      background: linear-gradient(to bottom, #4f5b45db); 
+  background-size: cover;
+  position: relative;
+  background-color: #4f5b45;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #D08C60;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    display: flex;
+    align-items: center;justify-content: center;
+    font-size: 25px;
+
+}
+#main{
+    width: 1000px;
+    height: 550px;
+    color: #4F5B45;
+    border-radius: 15px;
+    background-color: #fff7e3c0;
+   text-align: center;
+    /* margin: 0; */
+    padding: auto;
+    position: fixed;
+    top: 13%;
+    font-size: 40px;
+}
+h3{
+    /* margin-block: 20px 40px; */
+    margin-block: 100px; 
+    
+}
+h5{
+    margin: 20px;
+    margin-block: 100px; 
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: #D08C60;
+    border: none;
+    border-radius: 5px;
+    color: #FFF7E3;
+    font-size: 18px;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../bacground.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6; 
+  z-index: -1; 
+}
