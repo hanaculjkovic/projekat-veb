@@ -64,19 +64,68 @@ a{
   color: #D08C60; 
   font-weight: bold;
 }
-#zikr1{
-    text-align: center;
-    width: 70%;
-    height: 400px;
-    background-color: #fff7e3dd;
-    margin: auto;
-    border-radius: 5px;
-    font-size: 20px;
+#zajedno{
+    padding-block:  200px;;
     position: relative;
     z-index: 1;
-    padding-block: 100px;
-    
+    text-align: center;
 }
+#zikri{
+    width: 70%;
+    height: 500px;
+    background-color: #fff7e3dd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding: 30px;
+}
+#posebno{
+    width: 50%;
+    height: 200px;
+     background-color: #fff7e3dd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 80px;
+}
+#naslov{
+    margin-block: 20px;
+    font-size: 50px;
+    color: #FFF7E3;
+}
+p{
+    line-height: 60px;
+}
+
+#naslov{
+ color: #e5e2df;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  display: block;
+}
+#tekst{
+    font-size: 2rem;
+  line-height: 1.8;
+  color: #333;
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
 footer{
     width: 100%;
     height: 100px;
